@@ -1,0 +1,17 @@
+{
+  "name": "amplitude",
+  "version": "0.0.1",
+  "repo": "logo/amplitude",
+  "images": [
+    "images/logo-black.svg",
+    "images/logo-white.svg",
+    "images/logo.svg"
+  ],
+  "styles": [
+    "index.css"
+  ],
+  "development": {
+    "logo/logo": "*"
+  },
+  "license": "MIT"
+}
