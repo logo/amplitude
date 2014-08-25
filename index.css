@@ -1,22 +1,2 @@
-
-/**
- * Amplitude
- */
-
-.logo[data-logo="Amplitude"] {
-  width: 4.91687907em;
-  /* (1025.62/250.31) * (1+.1+.1) - 0 */
-}
-
-.logo[data-logo="Amplitude"] > * {
-  background-image: url(images/logo.svg);
-  margin: -.1em 0 -.1em 0;
-}
-
-.logo[data-logo="Amplitude"][data-color="black"] > * {
-  background-image: url(images/logo-black.svg);
-}
-
-.logo[data-logo="Amplitude"][data-color="white"] > * {
-  background-image: url(images/logo-white.svg);
-}
+@import 'logo/logo';
+@import './style';
